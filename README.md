@@ -1,4 +1,4 @@
-<img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=50% height=50%>
+<img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=70% height=70%>
 
 ## Tools
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
