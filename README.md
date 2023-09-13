@@ -10,7 +10,7 @@
 - [DIAMOND](https://github.com/bbuchfink/diamond): sequence aligner for protein and translated DNA searches.
 
 # Database content processing
-### * Create APIS protein families
+### Create APIS protein families
   - BLASTP homology search: 
   - MMseqs2 clustering:
 
