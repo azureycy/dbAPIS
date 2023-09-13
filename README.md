@@ -1,4 +1,4 @@
-![dbAPIS_logo, 50%](https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588)
+![dbAPIS_logo, 30%](https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588)
 
 ## Tools
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
