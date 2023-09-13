@@ -1,4 +1,4 @@
-![dbAPIS_logo](https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588 =250x250)
+![dbAPIS_logo, 50%](https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588 =250x250)
 
 ## Tools
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
@@ -29,7 +29,7 @@ PHROG:
 AlphaFold2 
 Foldseek 
 
-# Run APIS protein annotation with DIAMOND and HMMscan locally
+## Run APIS protein annotation with DIAMOND and HMMscan locally
 
 ### Run HMMscan on your local server
 
