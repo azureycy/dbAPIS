@@ -1,8 +1,5 @@
-#!/bin/bash
+-- Writen by Dr.Jinfang Zheng
 
-# from Jinfang on bcb
-### sudo cp  all_infor.tsv /var/lib/mysql-files/all_infor.tsv
-mysql -u root -p -P 3306 -D anti_defense << EOF
 drop TABLE repository;
 CREATE TABLE repository(
 	id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -50,7 +47,7 @@ CREATE TABLE repository(
 	INDEX (Anti_defense_family_ID)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/all_infor.tsv'
+LOAD DATA INFILE 'all_infor.tsv'
 INTO TABLE repository
 FIELDS TERMINATED BY '\t'
 ENCLOSED BY '"'
@@ -85,7 +82,7 @@ CREATE TABLE homologous(
 	INDEX (Anti_defense_family_ID)
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/family_member_blstout_host.tsv'
+LOAD DATA INFILE 'family_member_blstout_host.tsv'
 INTO TABLE homologous
 FIELDS TERMINATED BY '\t'
 ENCLOSED BY '"'
@@ -101,7 +98,7 @@ CREATE TABLE Member(
 	Protseq varchar(5000),
 	ptm FLOAT
 );
-LOAD DATA INFILE '/var/lib/mysql-files/member.info.txt'
+LOAD DATA INFILE 'member.info.txt'
 INTO TABLE Member
 FIELDS TERMINATED BY '\t'
 ENCLOSED BY '"'
