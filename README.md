@@ -28,7 +28,7 @@
   - Pfam and PHROG annotation: [phrog_pfam_annotation.sh](https://github.com/azureycy/dbAPIS/blob/main/phrog_pfam_annotation.sh)
 
 ### Protein structure prediction
-  - AlphaFold2 
+  - [protein_structure_predict.sh](https://github.com/azureycy/dbAPIS/blob/main/protein_structure_predict.sh)
 
 ### Searching protein structure homologs using Foldseek
   - [foldseek_homolog_structure.sh](https://github.com/azureycy/dbAPIS/blob/main/foldseek_homolog_structure.sh)
@@ -54,7 +54,7 @@ hmmpress anti_defense.hmm
 hmmscan anti_defense.hmm your_sequence.faa > output.txt
 ```
 
-### Run diamond on your local server 
+### Run DIAMOND on your local server 
 Download the APIS protein sequences
 ```
 wget https://bcb.unl.edu/dbAPIS/downloads/anti_defense.pep
