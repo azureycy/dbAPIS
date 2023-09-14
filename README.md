@@ -1,6 +1,6 @@
 <img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=65% height=65%>
 
-# Tools
+# Tools and databases
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
 - [MMseqs2](https://github.com/soedinglab/MMseqs2): sequence search and clustering.
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/): multiple sequence alignment.
@@ -8,9 +8,13 @@
 - [hh-suite](https://github.com/soedinglab/hh-suite): remote protein homology detection suite.
 - [Foldseek](https://github.com/steineggerlab/foldseek): protein structure comparison.
 - [DIAMOND](https://github.com/bbuchfink/diamond): sequence aligner for protein and translated DNA searches.
+- [Pfam](https://www.ebi.ac.uk/interpro/entry/pfam/): protein domain family database.
+- [PHROG](https://phrogs.lmge.uca.fr): prokaryotic Virus Remote Homologous Groups database.
+- [ColabFold](https://github.com/sokrypton/ColabFold) for AlphaFold2 structure prediction.
+- [clinker]()
 
 # Database content processing
-### Create APIS protein families
+### Create APIS protein families and add newly curated proteins
   - BLASTP homology search: 
   - MMseqs2 clustering:
 
