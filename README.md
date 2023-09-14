@@ -68,6 +68,3 @@ Run diamond for your amino acid sequences
 diamond blastp -d APIS_db -q your_sequence.fasta -o output.tsv
 ```
 
-## Website construction and maintaining
-
-
