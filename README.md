@@ -1,6 +1,6 @@
 <img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=65% height=65%>
 
-# Tools and databases
+## Tools and databases
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
 - [MMseqs2](https://github.com/soedinglab/MMseqs2): sequence search and clustering.
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/): multiple sequence alignment.
@@ -13,7 +13,7 @@
 - [ColabFold](https://github.com/sokrypton/ColabFold) for AlphaFold2 structure prediction.
 - [clinker](https://github.com/gamcil/clinker/tree/master): gene cluster comparison figure generator
 
-# Database content processing
+## Database content processing
 ### Create APIS protein families and add newly curated proteins
   - BLASTP homology search: [blast_seed.sh](https://github.com/azureycy/dbAPIS/blob/main/blast_seed.sh)
   - MMseqs2 clustering/searching: [create_family_and_update.sh](https://github.com/azureycy/dbAPIS/blob/main/create_family_and_update.sh)
@@ -39,7 +39,7 @@
 ### Gene cluster comparison using clinker
   - [clinker_gene_loci_plot.sh](https://github.com/azureycy/dbAPIS/blob/main/clinker_gene_loci_plot.sh)
 
-# Run APIS protein annotation with DIAMOND and HMMscan locally
+## Run APIS protein annotation with DIAMOND and HMMscan locally
 
 ### Run HMMscan on your local server
 
@@ -67,3 +67,7 @@ Run diamond for your amino acid sequences
 ```
 diamond blastp -d APIS_db -q your_sequence.fasta -o output.tsv
 ```
+
+## Website construction and maintaining
+
+
