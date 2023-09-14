@@ -11,27 +11,33 @@
 - [Pfam](https://www.ebi.ac.uk/interpro/entry/pfam/): protein domain family database.
 - [PHROG](https://phrogs.lmge.uca.fr): prokaryotic Virus Remote Homologous Groups database.
 - [ColabFold](https://github.com/sokrypton/ColabFold) for AlphaFold2 structure prediction.
-- [clinker]()
+- [clinker](https://github.com/gamcil/clinker/tree/master): gene cluster comparison figure generator
 
 # Database content processing
 ### Create APIS protein families and add newly curated proteins
-  - BLASTP homology search: 
-  - MMseqs2 clustering:
-
-### Add new APIS protein families
-- BLASTP homology search:
-- MMseqs2 searching:
+  - BLASTP homology search: [blast_seed.sh](https://github.com/azureycy/dbAPIS/blob/main/blast_seed.sh)
+  - MMseqs2 clustering/searching: [create_family_and_update.sh](https://github.com/azureycy/dbAPIS/blob/main/create_family_and_update.sh)
 
 ### Build APIS protein family HMMs 
-- Multiple sequence alignment
+  - [family_msa_hmm.sh](https://github.com/azureycy/dbAPIS/blob/main/family_msa_hmm.sh)
 
-### Group APIS protein families into clans using HHsearch 
+### Searching homologous families using HHsearch
+  - [hhsearch_homolog_family.sh](https://github.com/azureycy/dbAPIS/blob/main/hhsearch_homolog_family.sh)
 
 ### Protein function annotation
-Pfam:
-PHROG: 
-AlphaFold2 
-Foldseek 
+  - Pfam and PHROG annotation: [phrog_pfam_annotation.sh](https://github.com/azureycy/dbAPIS/blob/main/phrog_pfam_annotation.sh)
+
+### Protein structure prediction
+  - AlphaFold2 
+
+### Searching protein structure homologs using Foldseek
+  - [foldseek_homolog_structure.sh](https://github.com/azureycy/dbAPIS/blob/main/foldseek_homolog_structure.sh)
+
+### Genomic context visualization using jbrowse
+  - [generate_jbrowse.sh](https://github.com/azureycy/dbAPIS/blob/main/generate_jbrowse.sh)
+
+### Gene cluster comparison using clinker
+  - [clinker_gene_loci_plot.sh](https://github.com/azureycy/dbAPIS/blob/main/clinker_gene_loci_plot.sh)
 
 # Run APIS protein annotation with DIAMOND and HMMscan locally
 
