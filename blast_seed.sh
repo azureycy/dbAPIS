@@ -14,3 +14,4 @@ cut -f2 blast_seed.out | sort -u > homolog_id.lst
 seqkit grep -f homolog_id.lst all_viral.faa -o homolog.fa
 cat seed_pro.fasta homolog.fa > seed_prot_homolog.fa
 seqkit rmdup -s < seed_prot_homolog.fa > seed_prot_homolog_rmdupseq.fa
+
