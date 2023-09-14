@@ -1,6 +1,6 @@
 <img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=65% height=65%>
 
-### dbAPIS database website:![](https://bcb.unl.edu/dbAPIS)
+## dbAPIS database website link:[](https://bcb.unl.edu/dbAPIS)
 
 ## Tools and databases
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
