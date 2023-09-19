@@ -75,6 +75,7 @@ diamond blastp --db APIS_db -q your_sequence.faa -f 6 qseqid sseqid pident lengt
 Download the family member mapping table
 ```
 wget https://bcb.unl.edu/dbAPIS/downloads/Seed_family_mapping.tsv
+wget https://bcb.unl.edu/dbAPIS/downloads/parse_annotation_result.sh
 ```
 
 Run script to parse annotation output files
