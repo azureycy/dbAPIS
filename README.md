@@ -47,13 +47,13 @@
 
 Download the APIS protein family profile HMMs
 ```
-wget https://bcb.unl.edu/dbAPIS/downloads/anti_defense.hmm
+wget https://bcb.unl.edu/dbAPIS/downloads/dbAPIS.hmm
 ```
 
 Run hmmscan for your amino acid sequences
 ```
-hmmpress anti_defense.hmm
-hmmscan --domtblout hmmscan.domtblout --noali anti_defense.hmm your_sequence.faa
+hmmpress dbAPIS.hmm
+hmmscan --domtblout hmmscan.domtblout --noali dbAPIS.hmm your_sequence.faa
 ```
 
 ### Run DIAMOND on your local server 
