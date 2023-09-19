@@ -70,5 +70,15 @@ Run diamond for your amino acid sequences
 diamond blastp --db APIS_db -q your_sequence.faa -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen -o diamond.out --max-target-seqs 10000 -p 6
 ```
 
+### Parse annotation output
 
+Download the family member mapping table
+```
+wget https://bcb.unl.edu/dbAPIS/downloads/Seed_family_mapping.tsv
+```
+
+Run script to parse annotation output files
+```
+bash parse_annotation_result.sh
+```
 
