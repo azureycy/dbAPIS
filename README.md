@@ -53,7 +53,7 @@ wget https://bcb.unl.edu/dbAPIS/downloads/anti_defense.hmm
 Run hmmscan for your amino acid sequences
 ```
 hmmpress anti_defense.hmm
-hmmscan anti_defense.hmm your_sequence.faa > output.txt
+hmmscan --domtblout hmmscan.domtblout --noali anti_defense.hmm your_sequence.faa
 ```
 
 ### Run DIAMOND on your local server 
@@ -67,6 +67,8 @@ diamond makedb --in anti_defense.pep -d APIS_db
 ```
 Run diamond for your amino acid sequences
 ```
-diamond blastp -d APIS_db -q your_sequence.fasta -o output.tsv
+diamond blastp --db APIS_db -q your_sequence.faa -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen -o diamond.out --max-target-seqs 10000 -p 6
 ```
+
+
 
