@@ -94,28 +94,28 @@ This will generate parsed output files of hmmscan and diamond respectively
 2. Query len: query sequence length
 3. Hit family: hit family ID
 4. Defense type: hit family inhibited defense system type
-	5. Hit CLAN: hit clan ID
-	6.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type
-	7.Family len: length of the target family profile
-	8.Domain c-evalue: the “conditional E-value”, a permissive measure of how reliable this particular domain may be
-	9.Domain score: the bit score for this domain
-	10.Query from: query start position
-	11.Query to: query end position
-	12.HMM from: the start of the MEA alignment of this domain with respect to the profile
-	13.HMM to: the end of the MEA alignment of this domain with respect to the profile
+5. Hit CLAN: hit clan ID
+6. Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type
+7. Family len: length of the target family profile
+8. Domain c-evalue: the “conditional E-value”, a permissive measure of how reliable this particular domain may be
+9. Domain score: the bit score for this domain
+10. Query from: query start position
+11. Query to: query end position
+12. HMM from: the start of the MEA alignment of this domain with respect to the profile
+13. HMM to: the end of the MEA alignment of this domain with respect to the profile
 
 * `diamond.out.parsed.tsv` contains 12 columns:
-	1.qseqid: query sequence ID 
-	2.famid: hit family ID 
-	3.Defense type: hit family inhibited defense system type 
-	4.Hit CLAN: hit clan ID 
-	5.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type 
-	6.seqid: hit sequence ID 
-	7.pident: the percentage of identical amino acid residues that were aligned
-  	8.align length: the total length of the alignment, including matching, mismatching and gap positions of query and subject
-	9.evalue: the expected value of the hit
-	10.bitscore: a scoring matrix independent measure of the (local) similarity of the two aligned sequences, with higher numbers meaning more similar
-	11.qcov: query coverage, the percentage of the query sequence that aligned 
-	12.scov: subject coverage, the percentage of the hit sequence that aligned
+1. qseqid: query sequence ID 
+2. famid: hit family ID 
+3. Defense type: hit family inhibited defense system type 
+4. Hit CLAN: hit clan ID 
+5. Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type 
+6. seqid: hit sequence ID 
+7. pident: the percentage of identical amino acid residues that were aligned
+8. align length: the total length of the alignment, including matching, mismatching and gap positions of query and subject
+9. evalue: the expected value of the hit
+10. bitscore: a scoring matrix independent measure of the (local) similarity of the two aligned sequences, with higher numbers meaning more similar
+11. qcov: query coverage, the percentage of the query sequence that aligned 
+12. scov: subject coverage, the percentage of the hit sequence that aligned
 
 
