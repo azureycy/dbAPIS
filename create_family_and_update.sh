@@ -7,7 +7,7 @@ mkdir mmseq_clustr_cov0.8
 mmseqs cluster mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr tmp --min-seq-id 0.4 -c 0.8
 mmseqs createtsv mmseq_DB/mmseq_DB mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr mmseq_clustr.tsv
 
-# etarct sequences of clusters with >= 3 members
+# extarct sequences of clusters with >= 3 members
 mmseqs createseqfiledb mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr mmseq_clustr_cov0.8/mmseq_clustr_seq --min-sequences 3
 mmseqs result2flat mmseq_DB/mmseq_DB mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr_seq mmseq_clustr_cov0.8/mmseq_clustr_seq.fasta
 
