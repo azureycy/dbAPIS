@@ -90,7 +90,7 @@ bash parse_annotation_result.sh hmmscan.out diamond.out
 ```
 This will generate parsed output files of hmmscan and diamond respectively
 * `hmmscan.out.parsed.tsv` contains 13 columns: 
-	1.Query: query sequence ID
+⋅⋅⋅1.Query: query sequence ID
 	2.Query len: query sequence length
 	3. Hit family: hit family ID
 	4.Defense type: hit family inhibited defense system type
