@@ -92,9 +92,9 @@ This will generate parsed output files of hmmscan and diamond respectively
 * `hmmscan.out.parsed.tsv` contains 13 columns: 
 1. Query: query sequence ID
 2. Query len: query sequence length
-	3. Hit family: hit family ID
-	4.Defense type: hit family inhibited defense system type
-	5.Hit CLAN: hit clan ID
+3. Hit family: hit family ID
+4. Defense type: hit family inhibited defense system type
+	5. Hit CLAN: hit clan ID
 	6.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type
 	7.Family len: length of the target family profile
 	8.Domain c-evalue: the “conditional E-value”, a permissive measure of how reliable this particular domain may be
