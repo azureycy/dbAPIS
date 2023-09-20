@@ -90,9 +90,9 @@ bash parse_annotation_result.sh hmmscan.out diamond.out
 ```
 This will generate parsed output files of hmmscan and diamond respectively
 * hmmscan.out.parsed.tsv contains 13 columns: 
-⋅⋅⋅1.Query: query sequence ID
-⋅⋅⋅2.Query len: query sequence length
-⋅⋅⋅3.Hit family: hit family ID
+1. Query: query sequence ID
+2. Query len: query sequence length
+3. Hit family: hit family ID
 ⋅⋅⋅4.Defense type: hit family inhibited defense system type
 ⋅⋅⋅5.Hit CLAN: hit clan ID
 	6.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type
@@ -104,7 +104,7 @@ This will generate parsed output files of hmmscan and diamond respectively
 	12.HMM from: the start of the MEA alignment of this domain with respect to the profile
 	13.HMM to: the end of the MEA alignment of this domain with respect to the profile
 
-⋅⋅⋅* diamond.out.parsed.tsv contains 12 columns:
+* diamond.out.parsed.tsv contains 12 columns:
 	1. qseqid: query sequence ID 
 	2. famid: hit family ID 
 	3.Defense type: hit family inhibited defense system type 
