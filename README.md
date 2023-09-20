@@ -104,9 +104,9 @@ This will generate parsed output files of hmmscan and diamond respectively
 	12.HMM from: the start of the MEA alignment of this domain with respect to the profile
 	13.HMM to: the end of the MEA alignment of this domain with respect to the profile
 
-* diamond.out.parsed.tsv contains 12 columns:
-	1.qseqid: query sequence ID 
-	2.famid: hit family ID 
+⋅⋅⋅* diamond.out.parsed.tsv contains 12 columns:
+	1. qseqid: query sequence ID 
+	2. famid: hit family ID 
 	3.Defense type: hit family inhibited defense system type 
 	4.Hit CLAN: hit clan ID 
 	5.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type 
