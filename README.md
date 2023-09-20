@@ -59,7 +59,7 @@ Run hmmscan for your amino acid sequences
 ```
 hmmscan --domtblout hmmscan.out --noali dbAPIS.hmm your_sequence.faa
 ```
-${{--domtblout}} option produces the space-separated domain hits table. There is one line for each domain. "--noali" option is used to omit the alignment section from output and reduce the output volume. More hmmscan information please see [hmmer user guide](http://eddylab.org/software/hmmer/Userguide.pdf).
+`--domtblout` option produces the space-separated domain hits table. There is one line for each domain. `--noali` option is used to omit the alignment section from output and reduce the output volume. More hmmscan information please see [hmmer user guide](http://eddylab.org/software/hmmer/Userguide.pdf).
 
 ### Run DIAMOND on your local server 
 Download the APIS protein sequences
@@ -72,9 +72,9 @@ diamond makedb --in anti_defense.pep -d APIS_db
 ```
 Run diamond for your amino acid sequences
 ```
-diamond blastp --db APIS_db -q your_sequence.faa -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen -o diamond.out --max-target-seqs 10000 -p 6
+diamond blastp --db APIS_db -q your_sequence.faa -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen -o diamond.out --max-target-seqs 10000
 ```
-${{-f 6}} option generates tabular-separated format (a BLAST output format using the option -outfmt 6), which composed of the customized fields. ${{--max-target-seqs}} means maximum number of target sequences to report alignments for. More diamond details please see [diamond tutorial](https://github.com/bbuchfink/diamond/wiki/1.-Tutorial).
+`-f 6` option generates tabular-separated format (a BLAST output format using the option -outfmt 6), which composed of the customized fields. `--max-target-seqs` means maximum number of target sequences to report alignments for. More diamond details please see [diamond tutorial](https://github.com/bbuchfink/diamond/wiki/1.-Tutorial).
 
 ### Parse annotation output
 
@@ -89,9 +89,9 @@ Run script to parse annotation output files
 bash parse_annotation_result.sh hmmscan.out diamond.out
 ```
 This will generate parsed output files of hmmscan and diamond respectively
-- hmmscan.out.parsed.tsv contains 13 columns: 
-	1.Query: query sequence ID
-	2.Query len: query sequence length
+* hmmscan.out.parsed.tsv contains 13 columns: 
+...1.Query: query sequence ID
+...2.Query len: query sequence length
 	3.Hit family: hit family ID
 	4.Defense type: hit family inhibited defense system type
 	5.Hit CLAN: hit clan ID
@@ -112,7 +112,7 @@ This will generate parsed output files of hmmscan and diamond respectively
 	5.Hit CLAN defense type: hit clan inferred (predicted) inhibited defense system type 
 	6.seqid: hit sequence ID 
 	7.pident: the percentage of identical amino acid residues that were aligned
-  8.align length: the total length of the alignment, including matching, mismatching and gap positions of query and subject
+  	8.align length: the total length of the alignment, including matching, mismatching and gap positions of query and subject
 	9.evalue: the expected value of the hit
 	10.bitscore: a scoring matrix independent measure of the (local) similarity of the two aligned sequences, with higher numbers meaning more similar
 	11.qcov: query coverage, the percentage of the query sequence that aligned 
