@@ -1,8 +1,7 @@
 <img src="https://github.com/azureycy/dbAPIS/assets/90859231/ac60e454-ecc0-4cdc-8419-35cdf3db2588" width=65% height=65%>
 
 ### dbAPIS website: https://bcb.unl.edu/dbAPIS
-Yuchen Yan, Jinfang Zheng, Xinpeng Zhang, Yanbin Yin, dbAPIS: a database of anti-prokaryotic immune system genes, Nucleic Acids Research, 2023;, gkad932, https://doi.org/10.1093/nar/gkad932
-### [Yan, Y., Zheng, J., Zhang, X., & Yin, Y. (2023). dbAPIS: a database of anti-prokaryotic immune system genes. Nucleic Acids Research. doi:10.1093/nar/gkad932](https://doi.org/10.1093/nar/gkad932)
+Yan, Y., Zheng, J., Zhang, X., & Yin, Y. (2023). dbAPIS: a database of anti-prokaryotic immune system genes. Nucleic Acids Research. https://doi.org/10.1093/nar/gkad932
 
 ## Tools and databases
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
