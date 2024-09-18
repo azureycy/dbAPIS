@@ -11,6 +11,10 @@ mmseqs createtsv mmseq_DB/mmseq_DB mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_c
 mmseqs createseqfiledb mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr mmseq_clustr_cov0.8/mmseq_clustr_seq --min-sequences 3
 mmseqs result2flat mmseq_DB/mmseq_DB mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr_seq mmseq_clustr_cov0.8/mmseq_clustr_seq.fasta
 
+# extarct sequences of clusters with < 3 members, noted as unclassified seqs
+mmseqs createseqfiledb mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr mmseq_clustr_cov0.8/mmseq_clustr_seq --max-sequences 2
+mmseqs result2flat mmseq_DB/mmseq_DB mmseq_DB/mmseq_DB mmseq_clustr_cov0.8/mmseq_clustr_seq mmseq_clustr_cov0.8/mmseq_clustr_unclassified.fasta
+
 ### Add newly curated APIS proteins ###
 # compare new APIS proteins with existing APIS families using mmseqs search
 mmseqs createdb newlycurated_prot_homolog_rmdupseq.fa newlycurated_prot_homolog_rmdupseq_DB
