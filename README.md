@@ -3,7 +3,7 @@
 ### dbAPIS website: https://bcb.unl.edu/dbAPIS
 Yan, Y., Zheng, J., Zhang, X., & Yin, Y. (2023). dbAPIS: a database of anti-prokaryotic immune system genes. Nucleic Acids Research. https://doi.org/10.1093/nar/gkad932
 
-### The latest APIS protein sequences and HMM profile data are available on the website or here: [data_download](https://github.com/azureycy/dbAPIS/tree/main/data_download))
+### The latest APIS protein sequences and HMM profile data are available on the website or here: [data_download](https://github.com/azureycy/dbAPIS/tree/main/data_download)
 
 ## Tools and databases
 - [Blast+](https://github.com/ncbi/blast_plus_docs): compare sequences to database.
