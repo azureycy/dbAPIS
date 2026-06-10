@@ -1,11 +1,10 @@
 #!/bin/sh
 
-mkdir family_msa
+mkdir each_family_msa
+mkdir each_family_hmm
 
-for family_id in APIS{001..093};
-do 
-    # multiple sequence alignment of each family
-    mafft --thread 16 --auto $family_id.fasta > family_msa/$family_id.align.faa;
-    # build profile HMM for each family
-    hmmbuild $family_id.hmm family_msa/$family_id.align.faa;
+for i in `ls each_family_faa`;
+do id=${i%%.fasta*};
+mafft --thread 32 --auto each_family_faa/$i > each_family_msa/$id.align.faa;
+hmmbuild each_family_hmm/$id.hmm each_family_msa/$id.align.faa;
 done
